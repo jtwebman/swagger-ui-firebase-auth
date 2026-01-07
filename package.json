@@ -1,0 +1,48 @@
+{
+  "name": "swagger-ui-firebase-auth",
+  "version": "1.0.0",
+  "description": "Firebase authentication plugin for Swagger UI with automatic token refresh",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "swagger-ui",
+    "swagger",
+    "openapi",
+    "firebase",
+    "firebase-auth",
+    "authentication",
+    "token-refresh",
+    "jwt",
+    "swagger-ui-express"
+  ],
+  "author": "JT Turner <jtwebman@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roonlabs/swagger-ui-firebase-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roonlabs/swagger-ui-firebase-auth/issues"
+  },
+  "homepage": "https://github.com/roonlabs/swagger-ui-firebase-auth#readme",
+  "peerDependencies": {
+    "swagger-ui-express": ">=4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "swagger-ui-express": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
