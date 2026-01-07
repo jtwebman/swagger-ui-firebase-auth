@@ -10,9 +10,6 @@
     "README.md",
     "LICENSE"
   ],
-  "scripts": {
-    "test": "node test.js"
-  },
   "keywords": [
     "swagger-ui",
     "swagger",
